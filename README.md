@@ -1,2 +1,52 @@
-# CollegeStudentInnovationProject
-基于机器学习的手机边框胶线智能检测研究 手机边框点胶是指将手机压屏与边框进行粘合，点胶的好坏对手机质量影响很大。目前手机边框胶线的检测主要依靠人工，而人工易疲劳且成本高，急需智能化的检测代替人工。本项目研究和实现一种基于机器学习的手机边框胶线智能检测方法，具有很强的实用价值。主要研究内容：（1）建立手机边框胶线的数据集，进行数据清洗和样本标注；（2）研究机器学习中图像增强、边缘检测、模板匹配等原理和方法；（3）研究简单的卷积神经网络模型的原理和方法；（4）实现一种结合机器学习和深度学习的手机边框胶线智能检测方法，能检测出典型的缺陷，如断胶、掉胶、爬墙等；（5）实现一个简单的软件系统，展示手机边框胶线检测的结果。
+<div align="center">
+
+
+~假装有图片~
+
+# pyDevOps
+
+Python微服务设计与DevOps实践（进阶式挑战性综合项目1）项目代码
+
+</div>
+
+## 开发者
+
+- royalcandles
+- Iku
+- happy6vegetable
+- AzideCupric
+
+## 开发环境搭建步骤
+
+使用了以下工具进行管理：
+
+- poetry：管理Python虚拟环境
+- pre-commit：管理代码格式规范和commit信息规范
+- nonemoji：为commit提供有概括性的emoji
+
+> 前往阅读 >>[配置开发环境](./guide/dev-config.md)<<
+
+## commit注意事项
+
+项目使用了 [nonemoji](https://github.com/nonebot/nonemoji) 对commit信息进行规范
+
+### nonemoji 介绍以及使用
+
+对于commit，在git commit时，应该所写的commit msg前附带一个emoji(前后使用`:`包裹起来的emoji名称，例如`:fire: ->`:fire:)，用来概括本次提交的意图，例如:
+
+```commit
+git commit -m ":bug: 修复了xxx错误"
+
+// 这样commit之后的信息就会显示
+
+🐛 修复了xxx错误
+
+```
+
+从而使得commit msg更容易理解
+
+也可以直接在命令行里输入`nonemoji`命令，选择一个合适的nonemoji后填写commit msg并提交
+
+所有可用的nonemoji参见下面的链接，或者使用`nonemoji list`命令查看
+
+> 前往阅读 >>[使用nonemoji进行commit](./guide/nonemoji.md)<<
